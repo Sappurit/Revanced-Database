@@ -15,11 +15,11 @@
 <style>
 body        { border: 0px solid red;  padding: 0px; margin: 10px 10px; }
 #wrapper    { border: 0px solid blue; padding: 0px; margin:  0px  0px; display: flex; flex-wrap: wrap; }
-#title      { border: 1px solid red;  padding: 0px; margin: 10px  0px; width:  820px; font: bold   32px 'Roboto'; color: #000000; }
-#text       { border: 1px solid blue; padding: 0px; margin:  0px  0px; width:  820px; font: normal 16px 'Roboto'; color: #000000; }
+#title      { border: 0px solid red;  padding: 0px; margin: 10px  0px; width:  820px; font: bold   28px 'Roboto'; color: #000000; }
+#text       { border: 0px solid blue; padding: 0px; margin:  0px  0px; width:  820px; font: normal 16px 'Roboto'; color: #000000; }
 #text a     { text-decoration: none; color: #000000; }
 #text li    { line-height: 1.4; }
-#telegram   { border: 1px solid blue; padding: 0px; margin:  0px  0px; width:  300px; font: normal 16px 'Roboto'; color: #000000; text-align: center; }
+#telegram   { border: 0px solid blue; padding: 0px; margin:  0px  0px; width:  300px; font: normal 16px 'Roboto'; color: #000000; text-align: center; }
 #telegram a { text-decoration: none; color: #4491d0; }
 #content    { border: 0px solid blue; padding: 0px; margin-top: 20px;  width: 1800px; }
 kbd         { border: 1px solid #000; padding: 1px 2px; border-radius: 3px; }
@@ -37,48 +37,48 @@ kbd         { border: 1px solid #000; padding: 1px 2px; border-radius: 3px; }
 #myTable th:nth-of-type(6), #myTable td:nth-of-type(6) { width: 260px; }
 #myTable th:nth-of-type(7), #myTable td:nth-of-type(7) { width: 410px; }
 
-#myTable thead tr:nth-of-type(1) th:nth-of-type(1)                       { background: #90A4AE; }
-#myTable thead tr:nth-of-type(1) th:nth-of-type(2)                       { background: #FF8A65; }
-#myTable thead tr:nth-of-type(1) th:nth-of-type(3)                       { background: #4FC3F7; }
-#myTable thead tr:nth-of-type(1) th:nth-of-type(4)                       { background: #FFD54F; }
-#myTable thead tr:nth-of-type(1) th:nth-of-type(5)                       { background: #81C784; }
-#myTable thead tr:nth-of-type(1) th:nth-of-type(6)                       { background: #709DEC; }
-#myTable thead tr:nth-of-type(1) th:nth-of-type(7)                       { background: #AAAAAA; }
+#myTable thead tr:nth-of-type(1) th:nth-of-type(1)                       { background: #B0BEC5; }
+#myTable thead tr:nth-of-type(1) th:nth-of-type(2)                       { background: #FFCC80; }
+#myTable thead tr:nth-of-type(1) th:nth-of-type(3)                       { background: #81D4FA; }
+#myTable thead tr:nth-of-type(1) th:nth-of-type(4)                       { background: #FFF59D; }
+#myTable thead tr:nth-of-type(1) th:nth-of-type(5)                       { background: #E6EE9C; }
+#myTable thead tr:nth-of-type(1) th:nth-of-type(6)                       { background: #C5E1A5; }
+#myTable thead tr:nth-of-type(1) th:nth-of-type(7)                       { background: #80DEEA; }
 
 #myTable tbody tr.odd        td:nth-of-type(1),
-#myTable tbody tr.odd:hover  td:nth-of-type(1)     { background: #cfd8dc; }
+#myTable tbody tr.odd:hover  td:nth-of-type(1)     { background: #CFD8DC; }
 #myTable tbody tr.even       td:nth-of-type(1),
-#myTable tbody tr.even:hover td:nth-of-type(1)     { background: #eceff1; }
+#myTable tbody tr.even:hover td:nth-of-type(1)     { background: #ECEFF1; }
 
 #myTable tbody tr.odd        td:nth-of-type(2),
-#myTable tbody tr.odd:hover  td:nth-of-type(2)     { background: #ffccbc; }
+#myTable tbody tr.odd:hover  td:nth-of-type(2)     { background: #FFE0B2; }
 #myTable tbody tr.even       td:nth-of-type(2),
-#myTable tbody tr.even:hover td:nth-of-type(2)     { background: #fbe9e7; }
+#myTable tbody tr.even:hover td:nth-of-type(2)     { background: #FFF3E0; }
 
 #myTable tbody tr.odd        td:nth-of-type(3),
-#myTable tbody tr.odd:hover  td:nth-of-type(3)     { background: #b3e5fc; }
+#myTable tbody tr.odd:hover  td:nth-of-type(3)     { background: #B3E5FC; }
 #myTable tbody tr.even       td:nth-of-type(3),
-#myTable tbody tr.even:hover td:nth-of-type(3)     { background: #e1f5fe; }
+#myTable tbody tr.even:hover td:nth-of-type(3)     { background: #E1F5FE; }
 
 #myTable tbody tr.odd        td:nth-of-type(4),
-#myTable tbody tr.odd:hover  td:nth-of-type(4)     { background: #ffecb3; }
+#myTable tbody tr.odd:hover  td:nth-of-type(4)     { background: #FFF9C4; }
 #myTable tbody tr.even       td:nth-of-type(4),
-#myTable tbody tr.even:hover td:nth-of-type(4)     { background: #fff8e1; }
+#myTable tbody tr.even:hover td:nth-of-type(4)     { background: #FFFDE7; }
 
 #myTable tbody tr.odd        td:nth-of-type(5),
-#myTable tbody tr.odd:hover  td:nth-of-type(5)     { background: #c8e6c9; }
+#myTable tbody tr.odd:hover  td:nth-of-type(5)     { background: #F0F4C3; }
 #myTable tbody tr.even       td:nth-of-type(5),
-#myTable tbody tr.even:hover td:nth-of-type(5)     { background: #e8f5e9; }
+#myTable tbody tr.even:hover td:nth-of-type(5)     { background: #F9FBE7; }
 
 #myTable tbody tr.odd        td:nth-of-type(6),
-#myTable tbody tr.odd:hover  td:nth-of-type(6)     { background: #B8C9E9; }
+#myTable tbody tr.odd:hover  td:nth-of-type(6)     { background: #DCEDC8; }
 #myTable tbody tr.even       td:nth-of-type(6),
-#myTable tbody tr.even:hover td:nth-of-type(6)     { background: #DCE4F4; }
+#myTable tbody tr.even:hover td:nth-of-type(6)     { background: #F1F8E9; }
 
 #myTable tbody tr.odd        td:nth-of-type(7),
-#myTable tbody tr.odd:hover  td:nth-of-type(7)     { background: #cccccc; }
+#myTable tbody tr.odd:hover  td:nth-of-type(7)     { background: #B2EBF2; }
 #myTable tbody tr.even       td:nth-of-type(7),
-#myTable tbody tr.even:hover td:nth-of-type(7)     { background: #eeeeee; }
+#myTable tbody tr.even:hover td:nth-of-type(7)     { background: #E0F7FA; }
 
 
 .tt       { position: relative; cursor: pointer; }
@@ -248,8 +248,8 @@ $(function() {
 
 <pre>
 Author  : Sappurit
-Updated : 14-Feb-2023 18:08:38
-Total   : 5
+Updated : 15-Feb-2023 00:24:13
+Total   : 10
 </pre>
 </body>
 </html>

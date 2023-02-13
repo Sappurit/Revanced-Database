@@ -15,15 +15,15 @@ I will teach you how to build YouTube app without Ads by Microsoft Windows.
 There are 3 Java companies.
 
 > **1.1 Oracle**\
-> (https://www.oracle.com/java/technologies/downloads/#jdk17-windows)\
+> (https://www.oracle.com/java/technologies/downloads/#jdk17-windows) \
 > Need to download the full JDK version. Not recommend.
 > 
 > **1.2 OpenJDK**\
-> (https://openjdk.org)\
+> (https://openjdk.org) \
 > Have only source code.
 > 
 > **1.3 Azul Zulu**\
-> (https://www.azul.com/downloads/?version=java-17-lts&os=windows&architecture=x86-64-bit&package=jre)\
+> (https://www.azul.com/downloads/?version=java-17-lts&os=windows&architecture=x86-64-bit&package=jre) \
 > 100% open source. I prefer this one v17.38.21\
 > (https://cdn.azul.com/zulu/bin/zulu17.38.21-ca-jre17.0.5-win_x64.msi)
 
