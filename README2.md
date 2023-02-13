@@ -9,10 +9,10 @@ adb install -r app.revanced.android.youtube_17.49.37.apk
 
 -------------------------------------------------------------------------------
 
-adb shell pm list packages -3 \
+adb shell pm list packages -3
 
 adb uninstall com.mgoogle.android.gms \
-adb uninstall app.revanced.android.youtube \
+adb uninstall app.revanced.android.youtube
 
 adb shell pm uninstall -k com.mgoogle.android.gms \
 adb shell pm uninstall -k app.revanced.android.youtube
